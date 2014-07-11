@@ -14,7 +14,6 @@ RUN apt-get install -yq \
 RUN cd /tmp && \
     wget https://download.elasticsearch.org/logstash/logstash/logstash-1.4.2.tar.gz && \
     tar -xzvf ./logstash-1.4.2.tar.gz && \
-    mkdir -p /opt/logstash && \
     mv ./logstash-1.4.2 /opt/logstash && \
     rm ./logstash-1.4.2.tar.gz
 
