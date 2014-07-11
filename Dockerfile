@@ -31,4 +31,4 @@ EXPOSE 9292
 EXPOSE 514
 
 # Start logstash
-ENTRYPOINT [ "/opt/logstash/bin/logstash", "agent", "-f", "/opt/conf/logstash.conf", "web" ]
+ENTRYPOINT /opt/logstash/bin/logstash agent -f /opt/conf/logstash.conf web
