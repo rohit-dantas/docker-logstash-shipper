@@ -24,7 +24,7 @@ If you want to pass your own logstash.conf file, just mount its source directory
 	  -p 9292:9292 \
 	  rohitdantas/docker-logstash
 
-Special shoutout to ehazlett's excellent post, [Logstash and Kibana3 via Docker][1], explaining the big picture and pblittle's original container [2].
+Special shoutout to ehazlett's excellent post, [Logstash and Kibana3 via Docker][1], explaining the big picture and pblittle's [original container][2].
 
   [1]: http://ehazlett.github.io/applications/2013/08/28/logstash-kibana/
   [2]: https://github.com/pblittle/docker-logstash
